@@ -1,0 +1,197 @@
+body{
+	background: darkcyan;
+}
+
+.carta{
+	height: 120px;
+	width: 90px;
+	background: white;
+	border-radius: 2px;
+	border: 1px black solid;
+
+
+}
+
+.numero{
+	font-size: 10px;
+}
+
+.simbolo{
+	font-size: 10px;
+}
+
+#cinco_corazones{
+	position: relative;
+	left: 108px;
+	top: 20px;
+	color: red;
+	transform: rotate(20deg);
+	
+}
+
+.numeracion_invertido{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	transform: rotate(180deg);
+
+}
+.corazon{
+	font-size:  15px;
+
+}
+
+#cinco_corazones>#corazon1{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+#cinco_corazones>#corazon2{
+	position: absolute;
+	top: 20px;
+	left: 60px;
+}
+#cinco_corazones>#corazon3{
+	position: absolute;
+	top: 50px;
+	left: 40px;
+}
+#cinco_corazones>#corazon4_invertido{
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	transform: rotate(180deg);
+}
+#cinco_corazones>#corazon5_invertido{
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	transform: rotate(180deg);
+}
+
+#dos_treboles{
+	position: relative;
+	left: 17px;
+	bottom: 102px;
+	transform: rotate(-20deg);
+	z-index: -4;
+	
+}
+#dos_treboles>#trebol1{
+	position: absolute;
+	top:  10px;
+	left: 20px;
+}
+#dos_treboles>#trebol2_invertido{
+	position: absolute;
+	top:  100px;
+	left: 60px;
+	transform: rotate(180deg);
+}
+
+#cuatro_treboles{
+	position: relative;
+	left: 58px;
+	bottom: 224px;
+	z-index: -2;
+}
+
+#cuatro_treboles>#trebol41{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#cuatro_treboles>#trebol42{
+	position: absolute;
+	top: 10px;
+	left: 60px;
+}
+
+#cuatro_treboles>#trebol43_invertido{
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	transform: rotate(180deg);
+}
+
+#cuatro_treboles>#trebol44_invertido{
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	transform: rotate(180deg);
+}
+
+#tres_picas{
+	position: relative;
+	left: 38px;
+	bottom: 346px;
+	z-index: -3;
+	transform: rotate(-10deg);
+
+}
+
+#tres_picas>#picas1{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+#tres_picas>#picas2{
+	position: absolute;
+	left: 40px;
+	top: 60px;
+}
+#tres_picas>#picas3_invertido{
+	position: absolute;
+	left: 60px;
+	top: 100px;
+	transform: rotate(180deg);
+}
+
+#siete_treboles{
+	position: relative;
+	left: 78px;
+	bottom: 468px;
+	z-index: -1;
+	transform: rotate(10deg);
+	
+}
+
+#siete_treboles>#trebol71{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+
+}
+#siete_treboles>#trebol72{
+	position: absolute;
+	left: 60px;
+	top: 20px;
+}
+#siete_treboles>#trebol73{
+	position: absolute;
+	left: 40px;
+	top: 30px;
+}
+#siete_treboles>#trebol74{
+	position: absolute;
+	left: 20px;
+	top: 40px;
+}
+#siete_treboles>#trebol75{
+	position: absolute;
+	left: 60px;
+	top: 40px;
+}
+#siete_treboles>#trebol76_invertido{
+	position: absolute;
+	transform: rotate(180deg);
+	left: 20px;
+	top: 90px;
+}
+#siete_treboles>#trebol77_invertido{
+	position: absolute;
+	transform: rotate(180deg);
+	left: 60px;
+	top: 90px;
+}
